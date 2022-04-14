@@ -1,5 +1,11 @@
 // React-Router-DOM
-import { Route } from "react-router-dom";
+// React-Router-DOM-Dynamic-Link
+// React-Router-Only-Load-Single-Link-Location-Switch-Component
+// By default, /products/p1 will both load Products and ProductDetail components
+// In order to prevent that, import switch component and use it to wrap elements.
+// With that component, only a single component will be loaded that exactly matches
+// with the exact link.
+import { Route, Switch } from "react-router-dom";
 
 // React-Router-DOM
 import Welcome from "./pages/Welcome";
@@ -18,20 +24,30 @@ const App = () => {
       <MainHeader />
 
       <main>
-        {/* React-Router-DOM */}
-        <Route path="/welcome">
-          <Welcome />
-        </Route>
+        {/* React-Router-Only-Load-Single-Link-Location-Switch-Component */}
+        <Switch>
+          {/* React-Router-DOM */}
+          <Route path="/welcome">
+            <Welcome />
+          </Route>
 
-        {/* React-Router-DOM */}
-        <Route path="/products">
-          <Products />
-        </Route>
+          {/* React-Router-DOM */}
+          {/* React-Router-Only-Load-Single-Link-Location-Switch-Component */}
+          {/* exact tells Switch component that, the link should only lead to this one 
+          if it exactly matches this path */}
+          <Route path="/products" exact>
+            <Products />
+          </Route>
 
-        {/* React-Router-DOM-Dynamic-Link */}
-        <Route path="/product-detail/:productId">
-          <ProductDetail />
-        </Route>
+          {/* React-Router-DOM-Dynamic-Link */}
+          {/* By default, /products/p1 will both load Products and ProductDetail components
+          In order to prevent that, import switch component and use it to wrap elements.
+          With that component, only a single component will be loaded that exactly matches
+          with the exact link. */}
+          <Route path="/products/:productId">
+            <ProductDetail />
+          </Route>
+        </Switch>
       </main>
     </div>
   );

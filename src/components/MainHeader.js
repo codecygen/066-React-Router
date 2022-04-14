@@ -6,9 +6,12 @@ import classes from './MainHeader.module.css';
 // Loads pages without sending HTTP request to server
 // Fake navigation method which prevents server to be overloaded
 // Link component works just like NavLink but it does not highlight the active link
+// NavLink has an activeClassName props that you can pass a class which works when that
+// link is active
 // ========================================
 // import { Link } from 'react-router-dom';
 // ========================================
+// React-Router-Highlight-Link
 import { NavLink } from 'react-router-dom';
 
 const MainHeader = () => {
@@ -24,6 +27,7 @@ const MainHeader = () => {
 
                 <li>
                     {/* React-Router-DOM-Link-Click-Prevent-HTTP-Request-To-Server */}
+                    {/* React-Router-Highlight-Link */}
                     <NavLink activeClassName={classes.active} to="/products">
                         Products
                     </NavLink>

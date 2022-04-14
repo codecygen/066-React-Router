@@ -7,3 +7,6 @@ Keywords:
 - React-Router-DOM
 - React-Router-DOM-Link-Click-Prevent-HTTP-Request-To-Server
 - React-Router-DOM-Dynamic-Link
+- React-Router-Highlight-Link
+- React-Router-NoHighlight-Link
+- React-Router-Only-Load-Single-Link-Location-Switch-Component
