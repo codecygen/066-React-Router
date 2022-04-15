@@ -11,4 +11,4 @@ Keywords:
 - React-Router-NoHighlight-Link
 - React-Router-Only-Load-Single-Link-Location-Switch-Component
 - Loading-Specific-Path-Content
-- Redirect-Link
+- React-Router-Link-Redirect
