@@ -10,7 +10,7 @@ const Welcome = () => {
       <p>Here is welcome page</p>
 
       {/* React-Router-DOM */}
-      {/* React-Router-Loading-Specific-Path-Content */}
+      {/* Loading-Specific-Path-Content */}
       {/* Here you can load the content of the welcome page if the  */}
       {/* /welcome/new-user got clicked */}
       <Route path="/welcome/new-user">

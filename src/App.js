@@ -5,7 +5,7 @@
 // In order to prevent that, import switch component and use it to wrap elements.
 // With that component, only a single component will be loaded that exactly matches
 // with the exact link.
-// React-Router-Redirect-Link
+// Redirect-Link
 import { Route, Switch, Redirect } from "react-router-dom";
 
 // React-Router-DOM
@@ -28,7 +28,7 @@ const App = () => {
         {/* React-Router-Only-Load-Single-Link-Location-Switch-Component */}
         <Switch>
 
-          {/* React-Router-Redirect-Link */}
+          {/* Redirect-Link */}
           {/* When you redirect link, link will appear as */}
           {/* localhost:3000/welcome even if you click on localhost:3000/ */}
           <Route path="/" exact>
