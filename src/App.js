@@ -1,3 +1,4 @@
+// React-Router-Link-Redirect
 // React-Router-DOM
 // React-Router-DOM-Dynamic-Link
 // React-Router-Only-Load-Single-Link-Location-Switch-Component
@@ -5,7 +6,6 @@
 // In order to prevent that, import switch component and use it to wrap elements.
 // With that component, only a single component will be loaded that exactly matches
 // with the exact link.
-// React-Router-Link-Redirect
 import { Route, Switch, Redirect } from "react-router-dom";
 
 // React-Router-DOM
