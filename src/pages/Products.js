@@ -9,6 +9,7 @@ const Products = () => {
     <section>
       <Link></Link>
       <h1>Products Page</h1>
+      <p>Here is products page</p>
 
       <ul>
         <li><Link to="/products/p1">Book</Link></li>
