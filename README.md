@@ -10,5 +10,5 @@ Keywords:
 - React-Router-Highlight-Link
 - React-Router-NoHighlight-Link
 - React-Router-Only-Load-Single-Link-Location-Switch-Component
-- Loading-Specific-Path-Content
-- React-Router-Link-Redirect
+- Loading-Specific-Path-Content (If does not appear in search look in /pages/Welcome.js)
+- React-Router-Link-Redirect (If does not appear in search look in App.js)
