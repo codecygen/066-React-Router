@@ -11,4 +11,5 @@ Keywords:
 - React-Router-NoHighlight-Link
 - React-Router-Only-Load-Single-Link-Location-Switch-Component
 - React-Router-Nested-Route (If does not appear in search look in /src/pages/Welcome.js)
+Welcome.js is also rendered in App.js file.
 - React-Router-Link-Redirect (If does not appear in search look in /src/App.js)
